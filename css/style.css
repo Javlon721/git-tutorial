@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.intro__wrapper {
+  max-width: 1380px;
+  padding: 0 15px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro__title {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.counter__number {
+  font-size: 24px;
+}
+.counter__btn {
+  background-color: #8ecae6;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
