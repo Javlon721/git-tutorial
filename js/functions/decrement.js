@@ -1,7 +1,8 @@
 function decrement(el) {
+   const incrementEl1 = document.querySelector('.counter__number');
   const btn = document.querySelector(el);
-  const incrementEl = document.querySelector('.counter__number');
+  const incrementEl2 = document.querySelector('.counter__number');
   btn.addEventListener("click", () => {
-    incrementEl.innerHTML = +incrementEl.innerHTML - 1;
+    incrementEl1.innerHTML = +incrementEl2.innerHTML - 1;
   });
 }
