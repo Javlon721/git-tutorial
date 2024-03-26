@@ -4,6 +4,7 @@ function increment(el) {
   btn.addEventListener("click", () => {
     incrementEl.innerHTML = +incrementEl.innerHTML + 1;
   });
+  
 }
 
 increment('.counter__btn_increment')
