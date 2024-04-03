@@ -1,10 +1,4 @@
-function increment(el) {
-  const btn = document.querySelector(el);
-  const incrementEl = document.querySelector('.counter__number');
-  btn.addEventListener("click", () => {
-    incrementEl.innerHTML = +incrementEl.innerHTML + 1;
-  });
-}
+
 
 function decrement(el) {
   const btn = document.querySelector(el);
@@ -15,4 +9,3 @@ function decrement(el) {
 }
 
 decrement('.counter__btn_decrement')
-increment('.counter__btn_increment')
